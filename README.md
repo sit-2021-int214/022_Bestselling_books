@@ -6,7 +6,7 @@ Dataset from: https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books
 ## Result
 ## About Us 
 งานนี้เป็นส่วนของวิชา INT214 Statistics for Information technology <br/> ภาคเรียนที่ 1 ปีการศึกษา 2564 คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี 
-### Team: ยทธศาสตร์ยิ่งใหญ่ 
+### Team: ยุทธศาสตร์ยิ่งใหญ่ 
 
 1. นายปุรเชษฐ์ เจิ้น                         StudentID: 63130500083 
 2. นายยุทธศาสตร์ ประจักษ์สุวรรณ    StudentID: 63130500097 
