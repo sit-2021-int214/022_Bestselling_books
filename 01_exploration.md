@@ -15,7 +15,7 @@ Datasets from: https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-book
 ```
 
 ## Step 3: Export & Explore dataset from Kaggle
-Dataset ประกอบไปด้วยข้อมูลทั้งหมด 16 คอลัมน์
+Dataset ประกอบไปด้วยข้อมูลทั้งหมด 7 คอลัมน์
 1. `name` : ชื่อของหนังสือ
 2. `Author` : ชื่อของผู้แต่งหนังสือ
 3. `User Rating` : คะแนนจากผู้ใช้งานโดยเฉลี่ย (0-5)
