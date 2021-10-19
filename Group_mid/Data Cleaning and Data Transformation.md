@@ -8,9 +8,10 @@
 * library(stringr)  
 * library(assertive) 
 
-### dataset ที่ใช้(เราจะ filter เอาเเค่ใน 5 ปี ) 
+### dataset ที่ใช้(เราจะ filter เอาเเค่ใน 5 ปีเเละทำการปรับค่า price จะที่เป็นดอลล่า เป็น บาทเเทน ) 
 - dataset <- read_csv("https://raw.githubusercontent.com/sit-2021-int214/022_Bestselling_books/main/Group_mid/bestsellers_with_categories.csv")
 - datasetcle <- dataset %>% filter(Year >= 2015 && Year <= 2019)
+- datasetcle$Price_baht <- datasetcle$Price_baht*33.35
 
 
 ##  ขั้นตอนที่ 1 : Data Transformation with dplyr
@@ -18,12 +19,14 @@
 - datasetcle <- datasetcle %>% rename(Book_Name=Name)
 - datasetcle <- datasetcle %>% rename(Rating=`User Rating`)
 - datasetcle <- datasetcle %>% rename(Fiction=Genre)
+- datasetcle <- datasetcle %>% rename(Price_baht=Price)
 ### 1.2 Mutate and Transmute
 ### 1.3 Drop column
 - datasetcle <- datasetcle %>% select(Book_Name,Author,Rating,Reviews,Price,Fiction)
 
 ### plot graph ลอง plot graph มาเพื่อดูลักษณะของข้อมูล
 - datasetcle %>% ggplot(aes(x=Rating))+ geom_bar()
+
 ## ขั้นตอนที่ 2 : Checking the types of values
 - is.character(datasetcle$Book_Name)
 - is.character(datasetcle$Author)
@@ -33,16 +36,15 @@
 - is.factor(datasetcle$Fiction)
 
 ## ขั้นตอนที่ 3 : Changing the types of values
+หลังจากทำการเช็ดในข้อที่ 2 เราทำการเปลี่ยน type of values ให้ตรงกับ ความต้องการของเรา
 - datasetcle$Reviews <- as.integer(dataset$Reviews)
 - datasetcle$Fiction <- as.factor(datasetcle$Fiction)
 
 ## ขั้นตอนที่ 4 : Handling String with stringr 
+ไม่ได้ทำเพราะ dataset ที่เรานำมานั้นไม่มีส่วนไหนต้องเเก้ไขหรือตัดข้อมูลข้างในออก
 ## ขั้นตอนที่ 5 : Removing duplicate data
+เนื่องจากหนังสือบางเล่มนั้นได้รางวัลซ้ำเเต่คนละปีเราจึงทำการตัดตัวซ้ำออกนั้นเอง
 - datasetcle %>% duplicated() %>% table()
 - datasetcle %>% duplicated() %>% sum()
 - datasetcle %>% filter(duplicated(datasetcle))
 - datasetcle <- datasetcle %>% distinct()
-## ขั้นตอนที่ 6 : Handling missing data and outliers
-### 6.1. Missing Data
-- is.na(datasetcle)
-### 6.2. Outliers data & Range Values
