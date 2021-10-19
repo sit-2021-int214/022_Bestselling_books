@@ -2,11 +2,17 @@
 ## ขั้นตอนที่ 0 : ทำการเรียกใช้ตัวlibraryต่างๆ เเละ ทำการดาวห์โหลด dataset
 ### ตัวlibrary
 library(dplyr)
+
 library(readr)
+
 library(ggplot2)
+
 library(readr)    
+
 library(stringr)  
+
 library(assertive) 
+
 ### dataset ที่ใช้(เราจะ filter เอาเเค่ใน 5 ปี ) 
 dataset <- read_csv("https://raw.githubusercontent.com/sit-2021-int214/022_Bestselling_books/main/Group_mid/bestsellers_with_categories.csv")
 datasetcle <- dataset %>% filter(Year >= 2015 && Year <= 2019)
