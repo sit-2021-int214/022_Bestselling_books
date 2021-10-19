@@ -9,8 +9,8 @@
 * library(assertive) 
 
 ### dataset ที่ใช้(เราจะ filter เอาเเค่ใน 5 ปี ) 
-dataset <- read_csv("https://raw.githubusercontent.com/sit-2021-int214/022_Bestselling_books/main/Group_mid/bestsellers_with_categories.csv")
-datasetcle <- dataset %>% filter(Year >= 2015 && Year <= 2019)
+- dataset <- read_csv("https://raw.githubusercontent.com/sit-2021-int214/022_Bestselling_books/main/Group_mid/bestsellers_with_categories.csv")
+- datasetcle <- dataset %>% filter(Year >= 2015 && Year <= 2019)
 
 
 ##  ขั้นตอนที่ 1 : Data Transformation with dplyr
