@@ -11,7 +11,7 @@ Dataset from: https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books
 1. นายปุรเชษฐ์ เจิ้น                         StudentID: 63130500083 
 2. นายยุทธศาสตร์ ประจักษ์สุวรรณ    StudentID: 63130500097 
 3. นายวิชญพัฒน์ พัทธิกานต์สกุล      StudentID: 63130500107 
-4. อริย์ธัช กรุดมินบุรี                         StudentID: 63130500133
+4. นายอริย์ธัช กรุดมินบุรี                         StudentID: 63130500133
 ### Instructor 
 - ATCHARA TRAN-U-RAIKUL 
 - JATAWAT XIE (Git: [safesit23](https://github.com/safesit23))
