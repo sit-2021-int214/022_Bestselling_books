@@ -48,3 +48,7 @@
 - datasetcle %>% duplicated() %>% sum()
 - datasetcle %>% filter(duplicated(datasetcle))
 - datasetcle <- datasetcle %>% distinct()
+## ขั้นตอนที่ 6 : Handling missing data and outliers
+### 7.1. Missing Data
+- is.na(datasetcle) 
+เนื่องจากไม่มีข้อมูลไหนเป็น null เลยไม่ต้องตัดข้อมูลที่เป็น null ทิ้ง
