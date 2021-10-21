@@ -18,6 +18,9 @@ Dataset from: https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books
 - R Language
 - R Studio Desktop
 
+## Table of Contents
+1. [Exploratory Data Analysis](./01_exploration.md)
+
 
 ## Objective
 ## Process
