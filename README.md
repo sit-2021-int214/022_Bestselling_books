@@ -1,11 +1,23 @@
 # 022_Bestselling_books
 Dataset from: https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books-2009-2019
 
-### About's Bestselling books Datasets
+## About's Bestselling books Datasets
 ข้อมูล 50 อันดับหนังสือขายดีประจำปีใน Amazon ระหว่างปี 2009 ถึง 2019 มีหนังสือทั้งหมด 550 เล่ม ถูกจัดประเภทเป็นนิยายและสารคดี
 
-### Overview
+## Overview
 กลุ่มของเราเลือกชุดข้อมูลนี้มาเพราะ สนใจและต้องการหาหนังสือที่ได้รับความนิยมและน่าสนใจ ผ่านการใช้ข้อมูลที่ถูกรวบรวมบน platform วางขายหนังสือชื่อดังอย่าง Amazon
+
+## Steps
+1. Define a question
+2. Import Packages and dataset
+3. Export & Explore dataset from Kaggle
+4. Data Cleaning and Data Transformation
+5. Exploratory Data Analysis
+
+## Tools
+- R Language
+- R Studio Desktop
+
 
 ## Objective
 ## Process
