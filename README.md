@@ -19,7 +19,12 @@ Dataset from: https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books
 - R Studio Desktop
 
 ## Table of Contents
-1. [Exploratory Data Analysis](./01_exploration.md)
+1. [Exploratory Data Analysis](./exploration.md)
+
+## Resources
+### Important Files in Repository
+### References
+Dataset from Kaggle https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books-2009-2019
 
 
 ## Objective
