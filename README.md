@@ -23,6 +23,7 @@ Dataset from: https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books
 
 ## Resources
 ### Important Files in Repository
+- [bestsellers_with_categories.csv](Group_mid/bestsellers_with_categories.csv)
 ### References
 Dataset from Kaggle https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books-2009-2019
 
