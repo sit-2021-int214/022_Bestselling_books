@@ -21,11 +21,14 @@ Dataset from: https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books
 ## Table of Contents
 1. [Exploratory Data Analysis](./groupMid/dataExploration.md)
 2. [Data Cleaning and Data Transformation](./groupMid/dataCleaning&DataTransformation.md)
-3. [Data Analysis with Descriptive Statistics](./groupMid/dataAnalysisWithDescriptiveStatistics.md)
-4. 
+
 ## Resources
 ### Important Files in Repository
-- []()
+- [bestsellers_with_categories.csv](./groupMid/bestsellers_with_categories.csv) : Original Dataset
+- [bestsellers_with_categories_clearing.csv](./groupMid/code_bestsellers_with_categories.r) : Clean Dataset
+- [dataAnalysisWithDescriptiveStatistics.md](./groupMid/dataAnalysisWithDescriptiveStatistics.md) : Exploratory Data Analysis
+- [code_bestsellers_with_categories.r](./groupMid/code_bestsellers_with_categories.r) : R code
+
 ### References
 Dataset from Kaggle https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books-2009-2019
 
