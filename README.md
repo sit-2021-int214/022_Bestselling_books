@@ -19,9 +19,9 @@ Dataset from: https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books
 - R Studio Desktop
 
 ## Table of Contents
-1. [Exploratory Data Analysis](./test/dataExploration.md)
-2. [Data Cleaning and Data Transformation](./test/dataCleaning&DataTransformation.md)
-3. [Data Analysis with Descriptive Statistics](./test/dataAnalysisWithDescriptiveStatistics.md)
+1. [Exploratory Data Analysis](./groupMid/dataExploration.md)
+2. [Data Cleaning and Data Transformation](./groupMid/dataCleaning&DataTransformation.md)
+3. [Data Analysis with Descriptive Statistics](./groupMid/dataAnalysisWithDescriptiveStatistics.md)
 4. 
 ## Resources
 ### Important Files in Repository
