@@ -19,14 +19,14 @@ Dataset from: https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books
 - R Studio Desktop
 
 ## Table of Contents
-1. [Exploratory Data Analysis](./groupMid/dataExploration.md)
+1. [Data Exploration](./groupMid/dataExploration.md)
 2. [Data Cleaning and Data Transformation](./groupMid/dataCleaning&DataTransformation.md)
 
 ## Resources
 ### Important Files in Repository
 - [bestsellers_with_categories.csv](./groupMid/bestsellers_with_categories.csv) : Original Dataset
 - [bestsellers_with_categories_clearing.csv](./groupMid/code_bestsellers_with_categories.r) : Clean Dataset
-- [dataAnalysisWithDescriptiveStatistics.md](./groupMid/dataAnalysisWithDescriptiveStatistics.md) : Exploratory Data Analysis
+- [dataAnalysisWithDescriptiveStatistics.md](./groupMid/dataAnalysisWithDescriptiveStatistics.md) : Data Analysis
 - [code_bestsellers_with_categories.r](./groupMid/code_bestsellers_with_categories.r) : R code
 
 ### References
