@@ -1,4 +1,5 @@
 
+
 dataset <- read_csv("https://raw.githubusercontent.com/sit-2021-int214/022_Bestselling_books/main/groupMid/bestsellers_with_categories_clearing.csv")
 
 View(population_1)
@@ -7,6 +8,7 @@ mue0 <- mean(dataset$Price,na.rm = T)
 
 count(population_1)
 
+sd
 
 population_1 <- filter(dataset, dataset$Genre == "Fiction")
 
@@ -16,9 +18,8 @@ population_1 <- filter(dataset, dataset$Genre == "Fiction")
   sd <- sd(population_1$Price,na.rm = T)
   alpha = 0.05
   
-  #
-  h0 : mue0 >= 10
-  ha : mue0 < 10
+  # h0 : mue0 >= 10
+  # ha : mue0 < 10
   
   #find z
   z <- (mean - mue0) / (sd/sqrt(n));
@@ -42,5 +43,3 @@ population_1 <- filter(dataset, dataset$Genre == "Fiction")
   }else{
     print("Accept H0")
   }
-  
-  
