@@ -68,5 +68,5 @@ Accept H0
 Accept H0
 ```
 ## Step 6: Conclusion
-From what we have processed hypothesis test, we can conclude that the average price is more than or equal to $10 as we expected in the test.
+From what we have processed hypothesis test, we can conclude that the average price is less than or equal to $10 as we expected in the test.
 
