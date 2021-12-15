@@ -22,9 +22,8 @@
 5. Compare P-value with alpha or z/t with zalpha/talpha
 6. Conclusion
 
-##
 
-Step 0: Assign variables
+## Step 0: Assign variables
 
 ```
 n <- 240
@@ -33,19 +32,19 @@ xbar <- 10.85
 u0 <- 10 
 ```
 
-Step 1: State the hypothesis
+## Step 1: State the hypothesis
 
 ```
 #h0: mue0 >= 10  ,ha: mue0 < 10
 ```
 
-Step 2: Level of significance
+## Step 2: Level of significance
 
 ```
 alpha <- 0.05
 ```
 
-Step 3: Test statistic
+## Step 3: Test statistic
 
 ```
 z <- (10.85 - 10) / (8.57275/sqrt(240));
@@ -53,7 +52,7 @@ z
 ```
 z = 1.536047
 
-Step 4: Finding P-value approach or Critical Value approach
+## Step 4: Finding P-value approach or Critical Value approach
 
 ```
 # P-value approach
@@ -61,10 +60,10 @@ pvalue <- pnorm(1-z); pvalue
 # Critical Value approach
 zalpha <- qnorm(0.05); zalpha
 ```
-P-value = pvalue
+P-value = 0.2959632
 zalpha = -1.644854
 
-Step 5: Compare
+## Step 5: Compare
 
 ```
 # Using p-value approach
@@ -85,5 +84,5 @@ Accept H0
 ### Using critical value
 Accept H0
 
-Step 6: Conclusion
+## Step 6: Conclusion
 
