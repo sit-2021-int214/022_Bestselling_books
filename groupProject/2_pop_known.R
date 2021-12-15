@@ -17,11 +17,10 @@ sd1 <- sd(population_1$Price,na.rm = T)
 mean2 <- mean(population_2$Price,na.rm = T)
 sd2 <- sd(population_2$Price,na.rm = T)
 
-alpha = 0.05
+alpha = 0.025
 
-#
-h0 : A - B = 0
-ha : A - B != 0
+#h0 : A - B = 0
+#ha : A - B != 0
 #find se of mean 
 se <- sqrt((sd1^2)/n1) + ((sd2^2)/n2)
 #find z
@@ -31,7 +30,7 @@ z <- (mean1 - mean2)  / se;
 pvalue <- pnorm(z);
 
 #find Critical Value
-zalpha <- qnorm(1-0.025);
+zalpha <- qnorm(0.025);
 
 # Using p-value approach
 if(pvalue<=alpha){
