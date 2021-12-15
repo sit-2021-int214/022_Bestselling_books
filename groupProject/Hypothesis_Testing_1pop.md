@@ -40,7 +40,7 @@ pvalue <- pnorm(1-z); pvalue
 # Critical Value approach
 zalpha <- qnorm(0.05); zalpha
 ```
-P-value = 0.2959632
+P-value = 0.2959632 ,
 zalpha = -1.644854
 
 ## Step 5: Compare
