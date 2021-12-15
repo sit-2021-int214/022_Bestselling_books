@@ -46,12 +46,3 @@ if(z<=zalpha){
 }else{
   print("Accept H0")
 }
-
-
-#diff mean
-#find margin
-margin <- zalpha*se
-#diff margin
-diffmean <- mean1 - mean2
-upper <- diffmean+margin
-lower <- diffmean-margin
