@@ -26,7 +26,7 @@ Dataset from: https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books
 ## ➢Resources
 ### Important Files in Repository
 - [bestsellers_with_categories.csv](./groupMid/bestsellers_with_categories.csv): Original Dataset
-- [bestsellers_with_categories_clearing.csv](./groupMid/code_bestsellers_with_categories.r): Clean Dataset
+- [bestsellers_with_categories_clearing.csv](./groupMid/bestsellers_with_categories_clearing.csv): Clean Dataset
 - [dataExploration.md](./groupMid/dataExploration.md): Data Exploration
 - [dataCleaning&DataTransformation.md](./groupMid/dataCleaning&DataTransformation.md)
 - [dataAnalysisWithDescriptiveStatistics.md](./groupMid/dataAnalysisWithDescriptiveStatistics.md): Data Analysis
