@@ -5,7 +5,7 @@
 
 ## Step 0: Assign variables
 
-```
+``` ruby
 n <- 240
 sd <- 8.57275
 xbar <- 10.85
