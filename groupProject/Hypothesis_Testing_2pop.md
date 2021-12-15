@@ -75,10 +75,10 @@ if(z<=zalpha){
   print("Accept H0")
 }
 
-### Using p-value approach
+# Using p-value approach
 Accept H0
 
-### Using critical value
+# Using critical value
 Accept H0
 ```
 
