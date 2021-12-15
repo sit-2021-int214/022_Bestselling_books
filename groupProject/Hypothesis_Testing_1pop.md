@@ -2,7 +2,7 @@
 # 08 Hypothesis Testing 1 pop 
 
 ### Question:
- We want to perform a hypothesis test, with a .05 level of significance, to determine the price is $10 or more than it. We have 240 samples of fiction book. The average price of 240 samples is $10.85. We believed that the standard deviation is 8.57275.
+We want to perform a hypothesis test, with a .05 level of significance, to determine the price is $10 or more than it. We have 240 samples of fiction book. The average price of 240 samples is $10.85. We believed that the standard deviation is 8.57275.
 
 ## Step 0: Assign variables
 
