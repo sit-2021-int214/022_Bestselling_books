@@ -5,7 +5,7 @@
 
 ## Step 0: Assign variables
 
-``` ruby
+``` 
 n <- 240
 sd <- 8.57275
 xbar <- 10.85
@@ -14,19 +14,19 @@ u0 <- 10
 
 ## Step 1: State the hypothesis
 
-```
+``` 
 #h0: mue0 >= 10  ,ha: mue0 < 10
 ```
 
 ## Step 2: Level of significance
 
-```
+``` 
 alpha <- 0.05
 ```
 
 ## Step 3: Test statistic
 
-```
+``` 
 z <- (10.85 - 10) / (8.57275/sqrt(240));
 z
 ```
@@ -34,7 +34,7 @@ z = 1.536047
 
 ## Step 4: Finding P-value approach or Critical Value approach
 
-```
+``` 
 # P-value approach
 pvalue <- pnorm(1-z); pvalue
 # Critical Value approach
