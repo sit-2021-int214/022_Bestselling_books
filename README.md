@@ -1,6 +1,8 @@
 # 022_Bestselling_books
 Dataset from: https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books-2009-2019
 
+![topics](topics.png)
+
 ## About's Bestselling books Datasets
 ข้อมูล 50 อันดับหนังสือขายดีประจำปีใน Amazon ระหว่างปี 2009 ถึง 2019 มีหนังสือทั้งหมด 550 เล่ม ถูกจัดประเภทเป็นนิยายและสารคดี
 
