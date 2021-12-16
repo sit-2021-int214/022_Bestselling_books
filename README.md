@@ -1,8 +1,6 @@
 # 022_Bestselling_books
 Dataset from: https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books-2009-2019
 
-![topics](topics.png)
-
 ## About's Bestselling books Datasets
 ข้อมูล 50 อันดับหนังสือขายดีประจำปีใน Amazon ระหว่างปี 2009 ถึง 2019 มีหนังสือทั้งหมด 550 เล่ม ถูกจัดประเภทเป็นนิยายและสารคดี
 
@@ -24,7 +22,9 @@ Dataset from: https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books
 1. [Data Exploration](./groupMid/dataExploration.md)
 2. [Data Cleaning and Data Transformation](./groupMid/dataCleaning&DataTransformation.md)
 3. [Data Analysis](./groupMid/dataAnalysisWithDescriptiveStatistics.md)
-4. [Presentation](https://www.canva.com/design/DAEyn9ssbhk/in9p9G4BbXXXgscfDm0jkA/view?utm_content=DAEyn9ssbhk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+4. `FINAL`[Data Visualization](https://app.powerbi.com/view?r=eyJrIjoiNTFmOWRhY2UtMTYwNC00OTBjLWFlNjYtNmU3MDczMjZjMjVmIiwidCI6IjZmNDQzMmRjLTIwZDItNDQxZC1iMWRiLWFjMzM4MGJhNjMzZCIsImMiOjEwfQ%3D%3D)
+5. `FINAL`[Hypothesis Testing 1 pop](./groupProject/Hypothesis_Testing_1pop.md)
+6. `FINAL`[Hypothesis Testing 2 pop](./groupProject/Hypothesis_Testing_2pop.md)
 
 ## ➢Resources
 ### Important Files in Repository
@@ -34,6 +34,8 @@ Dataset from: https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books
 - [dataCleaning&DataTransformation.md](./groupMid/dataCleaning&DataTransformation.md)
 - [dataAnalysisWithDescriptiveStatistics.md](./groupMid/dataAnalysisWithDescriptiveStatistics.md): Data Analysis
 - [code_bestsellers_with_categories.r](./groupMid/code_bestsellers_with_categories.r): R code
+- [Hypothesis_Testing_1pop.md](./groupProject/Hypothesis_Testing_1pop.md)
+- [Hypothesis_Testing_2pop.md](./groupProject/Hypothesis_Testing_2pop.md)
 
 ### References
 Dataset from Kaggle https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books-2009-2019
