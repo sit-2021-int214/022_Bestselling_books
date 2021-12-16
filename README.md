@@ -24,6 +24,7 @@ Dataset from: https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books
 1. [Data Exploration](./groupMid/dataExploration.md)
 2. [Data Cleaning and Data Transformation](./groupMid/dataCleaning&DataTransformation.md)
 3. [Data Analysis](./groupMid/dataAnalysisWithDescriptiveStatistics.md)
+4. [Presentation](https://www.canva.com/design/DAEyn9ssbhk/in9p9G4BbXXXgscfDm0jkA/view?utm_content=DAEyn9ssbhk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## ➢Resources
 ### Important Files in Repository
