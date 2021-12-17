@@ -1,6 +1,7 @@
 # 022_Bestselling_books
-Dataset from: https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books-2009-2019
+
 ![topics](topics.png)
+Dataset from: https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books-2009-2019
 
 ## About's Bestselling books Datasets
 ข้อมูล 50 อันดับหนังสือขายดีประจำปีใน Amazon ระหว่างปี 2009 ถึง 2019 มีหนังสือทั้งหมด 550 เล่ม ถูกจัดประเภทเป็นนิยายและสารคดี
@@ -36,11 +37,8 @@ Dataset from: https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books
 - [dataCleaning&DataTransformation.md](./groupMid/dataCleaning&DataTransformation.md)
 - [dataAnalysisWithDescriptiveStatistics.md](./groupMid/dataAnalysisWithDescriptiveStatistics.md): Data Analysis
 - [code_bestsellers_with_categories.r](./groupMid/code_bestsellers_with_categories.r): R code
-- [Hypothesis_Testing_1pop.md](./groupProject/Hypothesis_Testing_1pop.md)
-- [Hypothesis_Testing_2pop.md](./groupProject/Hypothesis_Testing_2pop.md)
-
-### References
-Dataset from Kaggle https://www.kaggle.com/sootersaalu/amazon-top-50-bestselling-books-2009-2019
+- [Hypothesis_Testing_1pop.r](./groupProject/1_pop_Known.R)
+- [Hypothesis_Testing_2pop.r](./groupProject/2_pop_known.R)
 
 ## ➢About Us
 งานนี้เป็นส่วนของวิชา INT214 Statistics for Information technology <br/> ภาคเรียนที่ 1 ปีการศึกษา 2564 คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี 
